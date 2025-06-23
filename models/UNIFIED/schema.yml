@@ -6,7 +6,6 @@ sources:
     schema: raw
     tables:
       - name: benzimidazoles
-
         description: "Исходные данные о бензимидазолах, извлеченные из научных публикаций"
         columns:
           - name: smiles
@@ -89,8 +88,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Временная метка загрузки данных в dbt"
-      - name: co_crystals
 
+      - name: co_crystals
         description: "Data on photostable drug molecules and their multi-component crystalline forms (cocrystals or salts)"
         columns:
           - name: pdf
@@ -206,8 +205,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: complexes
 
+      - name: complexes
         description: "Data on thermodynamic stability constants (lgK) of chelate complexes formed by various metals and chelating ligands"
         columns:
           - name: pdf
@@ -272,8 +271,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: cytotox
 
+      - name: cytotox
         description: "Data on the toxicity of inorganic nanoparticles on various normal and cancer cell lines"
         columns:
           - name: sn
@@ -380,8 +379,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: eyedrops
 
+      - name: eyedrops
         description: "Data on the corneal permeability of small molecules used in ophthalmic drug delivery"
         columns:
           - name: smiles
@@ -422,8 +421,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: nanomag
 
+      - name: nanomag
         description: "Comprehensive data about magnetic nanoparticles, including core-shell structures and their magnetic properties"
         columns:
           - name: name
@@ -545,8 +544,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: nanozymes
 
+      - name: nanozymes
         description: "Data on nanozymes, including their chemical composition, structural properties, and catalytic activity"
         columns:
           - name: formula
@@ -632,8 +631,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: oxazolidinones
 
+      - name: oxazolidinones
         description: "Data on oxazolidinone antibiotics and their inhibitory concentrations against various bacterial strains"
         columns:
           - name: pdf
@@ -734,8 +733,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: seltox
 
+      - name: seltox
         description: "Data on the toxicity of inorganic nanoparticles tested against different bacterial strains, including both normal and multidrug-resistant (MDR) types"
         columns:
           - name: sn
@@ -848,8 +847,8 @@ sources:
 
           - name: dbt_loaded_at
             description: "Timestamp when the data was loaded into dbt"
-      - name: synergy
 
+      - name: synergy
         description: "Data on the antibacterial activity of individual drugs, nanoparticles, and their combinations against various bacterial strains"
         columns:
           - name: sn

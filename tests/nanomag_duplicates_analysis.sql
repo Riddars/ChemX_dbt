@@ -1,6 +1,6 @@
 -- Найти группы дубликатов
 WITH row_data AS (
-    SELECT * FROM {{ ref('cur_nanomag') }}  -- Используйте ref() вместо жесткого пути
+    SELECT * FROM {{ ref('cur_nanomag') }}
 ),
 
 row_hashes AS (

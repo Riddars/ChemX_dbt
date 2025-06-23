@@ -19,16 +19,6 @@ SELECT
     smiles,
     smiles_type,
     metal,
-
-    -- Преобразуем target в числовой тип, заменяя запятую на точку
-    CASE
-        WHEN target IS NULL OR TRIM(target) = '' THEN NULL
-        WHEN target ~ '^[0-9]+,[0-9]+$' THEN CAST(REPLACE(target, ',', '.') AS FLOAT)
-        WHEN target ~ '^[0-9]+\.[0-9]+$' THEN CAST(target AS FLOAT)
-        WHEN target ~ '^[0-9]+$' THEN CAST(target AS FLOAT)
-        ELSE NULL
-    END AS target_numeric,
-
     -- Сохраняем исходное значение для справки
     target AS target_original,
 
