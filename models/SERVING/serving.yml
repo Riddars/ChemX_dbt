@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: ml_ser_benzimidazoles
+    description: "{{ doc('ml_ser_benzimidazoles_doc') }}"
+
+  - name: ml_ser_co_crystals
+    description: "{{ doc('ml_ser_co_crystals_doc') }}"
+
+  - name: ml_ser_complexes
+    description: "{{ doc('ml_ser_complexes_doc') }}"
+
+  - name: ml_ser_cytotox
+    description: "{{ doc('ml_ser_cytotox_doc') }}"

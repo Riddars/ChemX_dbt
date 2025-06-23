@@ -13,6 +13,7 @@ select
     base.*,
 
     -- Обработка logp_original: приведение значения "-5,54" к числу -5.54
-    {{ parse_decimal_comma_to_float('logp_original') }} as logp_cleaned
+    {{ parse_decimal_comma_to_float('logp_original') }} as logp_cleaned,
+    {{ parse_decimal_comma_to_float('perm_original') }} as perm_cleaned
 
 from base
